@@ -1,0 +1,9 @@
+# Iris MQTT/Sparkplug bridge — install: pip install -r requirements.txt
+paho-mqtt>=2.0.0
+fastapi>=0.111.0,<1.0.0
+uvicorn[standard]>=0.29.0,<1.0.0
+fastmcp>=2.0.0
+httpx>=0.27.0,<1.0.0
+
+# Tests
+pytest>=8.0.0
